@@ -14,7 +14,7 @@ import { AuthContext} from './shared/context/auth-context';
 import { useAuth } from './shared/hooks/auth-hook';
 
 const App = () => {
-  const { token, login, logout, userId, username } = useAuth();
+  const { token, login, logout, userId } = useAuth();
   
   let routes;
 
@@ -22,7 +22,7 @@ const App = () => {
     routes = (
       <Switch>
         <Route path="/" exact>
-          <UserHome />
+          <h2>HOME</h2> />
         </Route>
         <Redirect to='/' exact />
       </Switch>
@@ -44,7 +44,6 @@ const App = () => {
         isLoggedIn: !!token,
         token: token,
         userId: userId,
-        username: username,
         login: login, 
         logout: logout
       }}
