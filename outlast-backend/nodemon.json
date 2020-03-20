@@ -2,7 +2,7 @@
   "env": {
     "DB_USER": "kylek321",
     "DB_PASSWORD": "SUta2C0BcGtS77NB",
-    "DB_NAME": "stocksleuth",
+    "DB_NAME": "outlast",
     "JWT_KEY": "SECRET_KEY"
   }
 }

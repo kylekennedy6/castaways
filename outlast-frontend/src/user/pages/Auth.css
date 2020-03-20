@@ -5,11 +5,36 @@
 
 .authentication {
   width: 90%;
-  max-width: 25rem;
+  max-width: 30rem;
   margin: 7rem auto;
   text-align: center;
 }
 
 .authentication form {
   margin-bottom: 1rem;
+}
+
+.authentication h2 {
+  font-size: 36px;
+}
+
+.authentication .name-field-left {
+  width: 49%;
+  display: block;
+  float: left;
+}
+
+.authentication .name-field-right {
+  width: 49%;
+  display: block;
+  float: right;
+}
+
+
+.side-by-side-container {
+  position: relative;
+  display: flex;
+  top: 5rem;
+  left: 4rem;
+  width: 38rem;
 }
